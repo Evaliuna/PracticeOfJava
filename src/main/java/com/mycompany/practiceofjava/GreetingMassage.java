@@ -1,7 +1,6 @@
 
 package com.mycompany.practiceofjava;
 
-import java.time.DayOfWeek;
 import java.util.Scanner;
 
 public class GreetingMassage {
@@ -12,4 +11,5 @@ public class GreetingMassage {
             name = input.nextLine();
             System.out.println("Hello "+name+", have a good day. ");
     }
+}
 }
