@@ -5,19 +5,10 @@ import java.util.Scanner;
 public class GreaterNumCheck {
     public static void main(String[] args) {
         try(Scanner input = new Scanner(System.in)){
-         double v, u, a,s;
-         System.out.print("Enter the value of v : ");
-         v = input.nextDouble();
-         System.out.print("Enter the value of u : ");
-         u = input.nextDouble();
-         System.out.print("Enter the value of a : ");
-         a = input.nextDouble();
-         System.out.print("Enter the value of s : ");
-         s = input.nextDouble();
-   
-         double formula = ((v*v) - (u*u))/(2*a*s) ;
-         System.out.println("Result of this expression : " +formula);
-         
+            int x = 20;
+            System.out.println("Enter a number : ");
+            int z = input.nextInt();
+            System.out.println("Is given number is greater then user entered : "+ (x>z));
         }
     }
 }
