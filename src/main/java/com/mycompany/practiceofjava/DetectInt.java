@@ -15,9 +15,7 @@ public class DetectInt {
                }
                else{
                 System.out.println("No, it's not.");
-               }
-                
-        }
-        
+               }    
+        }      
     }
 }
